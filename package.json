@@ -7,7 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "vercel-build": "next build"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sandmanzz/commentfetcher.git"
@@ -15,12 +14,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/sandmanzz/commentfetcher/issues"
   },
   "homepage": "https://github.com/sandmanzz/commentfetcher#readme",
   "dependencies": {
+    "@babel/runtime": "^7.27.1",
     "axios": "^1.9.0",
     "cookie": "^1.0.2",
     "cookie-parser": "^1.4.7",
